@@ -1,15 +1,19 @@
 {
-  "name": "mocha-teamcity-reporter",
+  "name": "@cypress/mocha-teamcity-reporter",
   "version": "0.0.2",
-  "description": "teamcity reporter for mocha",
+  "description": "TeamCity reporter for mocha compatible with Cypress.io",
   "main": "index.js",
   "directories": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/travisjeffery/mocha-teamcity-reporter.git"
+    "url": "https://github.com/cypress-io/mocha-teamcity-reporter.git"
   },
   "keywords": [
     "mocha",
@@ -23,6 +27,6 @@
   "author": "travis jeffery",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/travisjeffery/mocha-teamcity-reporter/issues"
+    "url": "https://github.com/cypress-io/mocha-teamcity-reporter/issues"
   }
 }
